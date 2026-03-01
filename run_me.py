@@ -1,4 +1,4 @@
-from random_walk import RandomWalk
+from src.random_walk import RandomWalk
 
 if __name__ == '__main__':
     rw = RandomWalk()
