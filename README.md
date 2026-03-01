@@ -1,8 +1,12 @@
 # RandomWalk
 
-This is a simple Python simulation API that generates some beautiful random walks using Matplotlib.pyplot.
+This is a simple Python simulation API that generates some beautiful random walks using `matplotlib.pyplot`.
 
-This project is based on a guided project in [Eric Matthes's 2023 book](https://www.google.com/search?q=python+crash+course+by+eric+matthes), _Python Crash Course (Third Edition)_, with several modifications, including enhanced customizability.
+This project is based on a guided project in 
+[Eric Matthes's 2023 book](https://www.google.com/search?q=python+crash+course+by+eric+matthes), 
+_Python Crash Course (Third Edition)_, with several modifications, including enhanced customizability.
+
+> By _[Morpheus](https://www.github.com/TheGittyPerson)_
 
 ## Features
 
@@ -23,12 +27,12 @@ from the **lists defined in `RandomWalk.walk` attributes**.
 `random_walk.py` creates an instance of the generator and plots the values on a graph.
 **A new set of values is generated each time `RandomWalk.build()` is called** (which calls `RWGenerator.fill_walk()`).
 
-Graph properties and walk behaviour settings are defined in the instance variables listed in [Reference](#instance-variables).
+Graph properties and walk behavior settings are defined in the instance variables listed in [Reference](#instance-variables).
 
 ## Reference
 
 ### Instance variables
-- `RandomWalk.walk` — a `Walk` object that controls walk behaviour (walk values generation)
+- `RandomWalk.walk` — a `Walk` object that controls walk behavior (walk values generation)
 - `RandomWalk.graph` — a `Graph` object that controls general Matplotlib.pyplot figure properties
 - `RandomWalk.points` — a `Points` object that controls point properties if `Randomwalk.graph.type_ = 'scatter'`
 - `RandomWalk.line` — a `Line` object that controls line properties if `Randomwalk.graph.type_ = 'line'`
@@ -49,7 +53,7 @@ Close the figure window created by `RandomWalk.show()` and unregister it from py
 
 ## Example usage
 
-```
+```python
 from random_walk import RandomWalk
 
 if __name__ == '__main__':
@@ -96,7 +100,7 @@ Tip: You can use `RandomWalk.graph.set(type_='line')` to make a visualization of
 - `random_walk.py` — main script; contains the `RandomWalk` class
 - `rw_generator.py` — controls movement logic (generates plot coordinates)
 - `rw_graph_properties.py` — controls Matplotlib graph settings; imported from main script
-- `rw_settings.py` — controls random walk behaviour settings; imported from main script to be passed to the `RWGenerator` instance
+- `rw_settings.py` — controls random walk behavior settings; imported from main script to be passed to the `RWGenerator` instance
 - `run_me.py` — example usage
 
 ## License
