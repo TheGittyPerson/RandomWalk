@@ -21,7 +21,7 @@ Any addition to the project will be very much appreciated.
 ### Steps
 
 1. Create a fork of 
-   [the repository](https://github.com/TheGittyPerson/day-quality-tracker)
+   [the repository](https://github.com/TheGittyPerson/random-walk)
 2. Clone the forked repository to your local machine
 3. **Create a new branch** (highly preferred) with a meaningful name
    - e.g.) `add-feature-xyz`, `fix-issue-12`
@@ -106,7 +106,7 @@ add a little joke comment if your code starts to look sleep-inducing.
 
 To report a bug or issue:
 1. On the repository on GitHub, go to the 
-   "[Issues](https://github.com/TheGittyPerson/day-quality-tracker/issues)" tab.
+   "[Issues](https://github.com/TheGittyPerson/random-walk/issues)" tab.
 2. Select "New issue"
 3. This is a tiny project, and I don't really have rules on how you should 
    write an issue report. Just include a descriptive title and helpful 
@@ -120,4 +120,4 @@ To report a bug or issue:
 If you do not wish to code any features yourself, feel free to either open 
 an issue as described above, mentioning and explaining the new feature you 
 would like to see, or add a comment under a 
-[discussion](https://github.com/TheGittyPerson/day-quality-tracker/discussions).
+[discussion](https://github.com/TheGittyPerson/random-walk/discussions).
