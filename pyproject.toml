@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "random-walk"
+version = "0.1.0"
+description = "A simple Python simulation API for generating customizable random walk visualizations."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+authors = [
+  { name = "Morpheus" },
+]
+dependencies = [
+  "matplotlib>=3.7",
+]
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+py-modules = [
+  "random_walk",
+  "rw_generator",
+  "rw_graph_properties",
+  "rw_settings",
+]
