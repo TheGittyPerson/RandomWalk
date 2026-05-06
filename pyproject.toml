@@ -17,10 +17,4 @@ dependencies = [
 ]
 
 [tool.setuptools]
-package-dir = { "" = "src" }
-py-modules = [
-  "random_walk",
-  "rw_generator",
-  "rw_graph_properties",
-  "rw_settings",
-]
+packages = ["randomwalk"]

@@ -2,9 +2,9 @@ from typing import TYPE_CHECKING
 
 import matplotlib.pyplot as plt
 
-from rw_generator import RWGenerator
-from rw_settings import Walk
-from rw_graph_properties import Graph, Points, Line
+from .rw_generator import RWGenerator
+from .rw_settings import Walk
+from .rw_graph_properties import Graph, Points, Line
 
 if TYPE_CHECKING:
     import matplotlib
